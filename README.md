@@ -31,12 +31,19 @@ attachment	https://drive.google.com/file/d/1ko3zWBy9Js15XaG0QmH86RryyfHrORRp/vie
 ```
 
 startRow: First row of student data. Currently this is row 6
+
 lastRowOffset: No offset is 0
+
 banner: Banner for HTML Email
+
 template: HTML Email template
+
 fromName: Sender Name
+
 fromEmail: Sender email address
+
 ccEmails: CC email address comma-separated
+
 attachment: Attachment file. Must be PDF.
 
 ## Initialise Template
@@ -57,10 +64,17 @@ Nicholas4	Chia	nicholas.cs.chia@gmail.com	Sent on Tue Dec 07 2021 16:52:21 GMT+0
 ```
 
 name: Title of the course
+
 startDate: Start date of the course
+
 endDate: End date of the course
+
 trgSchedule: The period of the course
+
 First Name: First name of the student
+
 Last Name: Last name if the student
+
 Email Address: Student email address
+
 Start Enablement Email Sent by Who & When?: This field must be empty the first time. Email will be sent if this cell is empty. The Add On will add this field after an email is sent.
