@@ -18,6 +18,7 @@ If you organisation does not allow you to install Add Ons, you can deploy and us
 ## Configurations
 You must have this work sheet before running the mail merge function. Running this function will create a configuration each time. Rename the previously created configuration before running this function as it will remove and recreate a new "Configuration" worksheet each time.
 
+```
 Key	Value
 startRow	6
 lastRowOffset	0
@@ -27,6 +28,7 @@ fromName	APAC Enablement [Mail Merge for GS]
 fromEmail	nicholas.cs.chia@gmail.com
 ccEmails	nicholas.cs.chia@gmail.com, nicholas.cs.chia@gmail.com
 attachment	https://drive.google.com/file/d/1ko3zWBy9Js15XaG0QmH86RryyfHrORRp/view?usp=sharing
+```
 
 startRow: First row of student data. Currently this is row 6
 lastRowOffset: No offset is 0
@@ -42,6 +44,7 @@ Running this function will create a template name "Template" each time. Rename t
 
 You can have multiple worksheets of recipient list in the same spreadsheet for each mail merge operation.
 
+```
 name	Advanced Deployment with Red Hat Ansible Automation		
 startDate	January 17, 2022		
 endDate	January 21, 2022		
@@ -51,6 +54,7 @@ Nicholas1	Chia	nicholas.cs.chia@gmail.com	Sent on Tue Dec 07 2021 16:52:21 GMT+0
 Nicholas2	Chia	nicholas.cs.chia@gmail.com	Sent on Tue Dec 07 2021 16:52:21 GMT+0800 (Singapore Standard Time) by Mail Merge for GS.
 Nicholas3	Chia	nicholas.cs.chia@gmail.com	Sent on Tue Dec 07 2021 16:52:21 GMT+0800 (Singapore Standard Time) by Mail Merge for GS.
 Nicholas4	Chia	nicholas.cs.chia@gmail.com	Sent on Tue Dec 07 2021 16:52:21 GMT+0800 (Singapore Standard Time) by Mail Merge for GS.
+```
 
 name: Title of the course
 startDate: Start date of the course
